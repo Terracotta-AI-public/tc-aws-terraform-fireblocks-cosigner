@@ -39,6 +39,7 @@ resource "aws_instance" "nitro-mainnet-01" {
     enabled = true
   }
 
+  # root block device
   root_block_device {
       volume_size = 100
       volume_type = "gp3"
